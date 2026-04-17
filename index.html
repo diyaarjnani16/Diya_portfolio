@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diya Arjnani | Portfolio</title>
+    <meta name="description" content="Portfolio of Diya Arjnani - Information Technology">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <nav class="navbar">
+        <a href="#" class="nav-brand">DA<span>.</span></a>
+        <ul class="nav-links">
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#experience" class="nav-link">Experience</a></li>
+            <li><a href="Diya_Arjnani_CV.pdf" download class="btn-download">Download CV <i class="fa-solid fa-arrow-down"></i></a></li>
+        </ul>
+        <div class="mobile-menu-btn">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Home / Hero Section -->
+        <section id="hero" class="hero">
+            <div class="hero-content fade-in-section">
+                <span class="badge">B.Tech in Information Technology</span>
+                <h1 class="title">Hi, I'm <span class="highlight">Diya Arjnani</span></h1>
+                <p class="description">
+                    Passionate about building responsive web experiences and leveraging machine learning to solve real-world problems. Welcome to my digital space.
+                </p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn-primary">View My Work</a>
+                    <a href="Diya_Arjnani_CV.pdf" download class="btn-secondary">Download CV <i class="fa-solid fa-download"></i></a>
+                </div>
+            </div>
+            <!-- Decorative minimal element -->
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                <span>Scroll</span>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section-padding fade-in-section">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <div class="line"></div>
+            </div>
+            <div class="about-grid">
+                <div class="education-block fade-in-element">
+                    <h3><i class="fa-solid fa-graduation-cap"></i> Education</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <h4>B.Tech in Information Technology</h4>
+                            <h5>MPSTME, NMIMS University</h5>
+                            <span class="date">2023 &mdash; 2027</span>
+                            <p>CGPA: 3.02</p>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <h4>Senior Secondary School (12th Grade)</h4>
+                            <h5>Carmel Convent Senior Secondary School</h5>
+                            <span class="date">2021 &mdash; 2023</span>
+                            <p>CBSE: 61.6%</p>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <h4>Secondary School (10th Grade)</h4>
+                            <h5>Carmel Convent Senior Secondary School</h5>
+                            <span class="date">2021</span>
+                            <p>CBSE: 88.8%</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-block fade-in-element" style="transition-delay: 0.1s;">
+                    <h3><i class="fa-solid fa-code"></i> Core Skills</h3>
+                    <div class="skills-wrapper">
+                        <div class="skill-category">
+                            <h4>Technical</h4>
+                            <div class="tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">Java</span>
+                                <span class="tag">HTML5</span>
+                                <span class="tag">CSS3</span>
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">Machine Learning</span>
+                                <span class="tag">Agentic AI</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Non-Technical</h4>
+                            <div class="tags">
+                                <span class="tag">Communication</span>
+                                <span class="tag">Teamwork</span>
+                                <span class="tag">Problem Solving</span>
+                                <span class="tag">Adaptability</span>
+                                <span class="tag">Quick Learner</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cert-block mt-4">
+                        <h3><i class="fa-solid fa-certificate"></i> Certifications</h3>
+                        <ul class="cert-list">
+                            <li><strong>Agentic AI: From Learner to Builder</strong> &mdash; IBM SkillsBuild (2025)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section-padding">
+            <div class="section-header fade-in-section">
+                <h2>Featured Projects</h2>
+                <div class="line"></div>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card fade-in-element">
+                    <div class="project-logo"><i class="fa-solid fa-heart-pulse"></i></div>
+                    <div class="project-year">2024</div>
+                    <h3>Heart Disease Prediction using Machine Learning</h3>
+                    <p>Built and trained classification models (Logistic Regression, Random Forest) on clinical datasets to predict heart disease risk. Performed comprehensive data preprocessing and model evaluation.</p>
+                    <div class="project-tags">
+                        <span>Machine Learning</span>
+                        <span>Python</span>
+                        <span>Data Preprocessing</span>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in-element" style="transition-delay: 0.1s;">
+                    <div class="project-logo"><i class="fa-solid fa-chart-line"></i></div>
+                    <div class="project-year">2024</div>
+                    <h3>Global Suicide Rate Analysis (1985–2015)</h3>
+                    <p>Conducted exploratory data analysis on multi-country suicide datasets. Created comparative visualizations highlighting high-risk demographic trends and temporal patterns linked to economic indicators.</p>
+                    <div class="project-tags">
+                        <span>EDA</span>
+                        <span>Data Visualization</span>
+                        <span>Analytics</span>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in-element" style="transition-delay: 0.2s;">
+                    <div class="project-logo"><i class="fa-solid fa-mobile-screen-button"></i></div>
+                    <div class="project-year">2024</div>
+                    <h3>Usability Enhancement – Ladki Bahen Yojana</h3>
+                    <p>Performed heuristic evaluation to resolve accessibility and layout issues. Redesigned UI components and proposed structural improvements to enhance clarity and user experience.</p>
+                    <div class="project-tags">
+                        <span>UI/UX</span>
+                        <span>Heuristic Evaluation</span>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in-element" style="transition-delay: 0.3s;">
+                    <div class="project-logo"><i class="fa-solid fa-weight-scale"></i></div>
+                    <div class="project-year">2024</div>
+                    <h3>Health Website with BMI Calculator</h3>
+                    <p>Developed a responsive health website featuring real-time BMI calculation. Designed an interactive interface with proper input validation and categorization based on results.</p>
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="experience section-padding">
+            <div class="section-header fade-in-section">
+                <h2>Experience & Achievements</h2>
+                <div class="line"></div>
+            </div>
+            
+            <div class="exp-list">
+                <div class="exp-item fade-in-element">
+                    <div class="exp-header">
+                        <div>
+                            <h3>Project Based Learning Intern (Agentic AI)</h3>
+                            <h4>IBM SkillsBuild & CSRBOX Foundation</h4>
+                        </div>
+                        <span class="exp-date">Jul 2025 &mdash; Aug 2025</span>
+                    </div>
+                    <p>Completed a 4-week intensive program focused on AI agent architecture, LLM workflows, and prompt engineering. Built AI-driven mini projects and explored automation and decision-based systems.</p>
+                </div>
+
+                <div class="exp-item fade-in-element" style="transition-delay: 0.1s;">
+                    <div class="exp-header">
+                        <div>
+                            <h3>Smart India Hackathon (SIH) Participant</h3>
+                            <h4>National Level Competition</h4>
+                        </div>
+                        <span class="exp-date">2025</span>
+                    </div>
+                    <p>Participated in collaborative coding environments targeting real-world innovative solutions, strengthening my development and logic building proficiency.</p>
+                </div>
+
+                <div class="exp-item fade-in-element" style="transition-delay: 0.2s;">
+                    <div class="exp-header">
+                        <div>
+                            <h3>Inter-college Sports & Position of Responsibility</h3>
+                            <h4>Badminton & Box Cricket</h4>
+                        </div>
+                        <span class="exp-date">Ongoing</span>
+                    </div>
+                    <p>Actively participated in college-level sports tournaments, demonstrating leadership, discipline, and exemplary teamwork under highly competitive environments.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <h2 class="footer-title">Let's Connect</h2>
+            <p class="footer-subtitle">Open for opportunities, internships, and collaborations.</p>
+            <div class="social-links">
+                <a href="mailto:diyaarjnani@example.com" class="social-icon" aria-label="Email"><i class="fa-regular fa-envelope"></i></a>
+                <a href="#" class="social-icon" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#" class="social-icon" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Diya Arjnani. Designed with minimalist aesthetics.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
